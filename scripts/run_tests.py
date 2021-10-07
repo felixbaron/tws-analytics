@@ -7,7 +7,7 @@ import os
 def test_runner():
     """ Execute command in temrinal
     """
-    command = 'nodemon -x "python -m unittest discover test" -e .py'
+    command = 'nodemon -x "python -m unittest discover tests" -e .py'
     os.system(command)
 
 if __name__ == "__main__":

@@ -50,3 +50,6 @@ class Database:
         """Upserts a record to the database"""
         print("Received ", idx, " with ", record)
         pass
+
+if __name__ == '__main__':
+    pass
